@@ -139,6 +139,11 @@ img{
     background-color: var(--second-color);
     transition: .5s;
   }
+  
+}
+#blog_id {
+  background: #0bafff;
+  border-block: dashed;
 }
 .nav__item{
   margin-bottom: var(--mb-4);
@@ -249,14 +254,10 @@ img{
 }
 
 /* ===== SKILLS =====*/
-.skills__container {
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.01em;
-  font-weight: 500;
-  font-style: normal;
- }
- 
+.skills__container{
+  row-gap: 2rem;
+  text-align: center;
+}
 .skills__subtitle{
   margin-bottom: var(--mb-2);
 }

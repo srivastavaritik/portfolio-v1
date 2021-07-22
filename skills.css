@@ -1,0 +1,51 @@
+body {
+	font-family: "Open Sans", Arial, Helvetica;
+}
+
+$height: 40px;
+$borderradius: 20px;
+$startdelay: 0.5;
+$color:cornflowerblue;
+
+.container {
+	max-width: 600px;
+	width: 50%;
+	margin: 50px auto 50px auto;
+}
+
+ul.skills-list {
+
+	margin-top:80px;
+
+	@for $i from 1 through 10 {
+		li:nth-child(#{$i}) span {
+			transition-delay: 0.5s + ($i/3);
+			background: darken($color,$i*4);
+		}
+	}
+	li {
+		position: relative;
+		display: block;
+		background: #ccc;
+		margin: $height 0 0 0;
+		border-radius: $borderradius;
+		height: $height;
+		line-height: $height;
+	}
+
+	span {
+		display: block;
+		height: $height;
+		border-radius: $borderradius;
+		width: 0%;
+		transition: 0.5s ease;
+	}
+
+	em {
+		text-transform: uppercase;
+		font-weight:bold;
+		position: relative;
+		top: -$height*2;
+	}
+	
+}

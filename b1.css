@@ -19,13 +19,7 @@
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
 }
-@media screen and (min-width: 768px){
-  :root{
-    --big-font-size: 3.5rem;
-    --h2-font-size: 2rem;
-    --normal-font-size: 1rem;
-  }
-}
+
 
 /*===== Margenes =====*/
 :root{
@@ -48,7 +42,7 @@
 /*===== BASE =====*/
 *,::before,::after{
   box-sizing: border-box;
-  background-color: rgba(214, 214, 214, 0.767);
+  background-color: rgba(214, 214, 214, 0.747);
 }
 html{
   scroll-behavior: smooth;
@@ -79,7 +73,7 @@ a{
   left: 0;
   z-index: var(--z-fixed);
   background-color: #fff;
-  box-shadow: 0 1px 4px rgba(146,161,176,.15);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
 
 /*===== NAV =====*/
@@ -127,7 +121,7 @@ a{
   background-color: var(--first-color);
 }
 .nav__logo{
-  color: rgb(255, 124, 2);
+  color: rgb(38, 65, 57);
 }
 .nav__toggle{
   color: var(--second-color);
@@ -166,4 +160,4 @@ a{
 }
 .nav__link{
   color: var(--second-color);
-}  */
+}  

@@ -338,6 +338,7 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
   margin-bottom: var(--mb-4);
 }
 .skills__data{
+  background: rgba(66, 107, 155, 0.884);
   display: flex;
   justify-content: space-between;
   align-items: center;
